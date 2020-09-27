@@ -8,12 +8,9 @@ float[][] tera;
 
 void setup() {
   size(600, 500, P3D);
-  
   cols = w/scale;
   rows = h/scale;
   tera = new float[cols][rows];
-  
-  
 }
 
 void draw() {
@@ -28,12 +25,9 @@ void draw() {
     yoff += 0.2;
   }
   
-  
   background(0);
-
   stroke(255);
   noFill();
-
   translate(width/2, height/2);
   rotateX(-(PI/2+PI/10));
   translate(-w/2, -h/2);
